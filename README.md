@@ -40,7 +40,7 @@ BACKEND/
 1. Clone the repository:
 
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/nishant1810/Shrinkify.git
    cd BACKEND
    ```
 
