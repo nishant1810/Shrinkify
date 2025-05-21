@@ -1,13 +1,10 @@
-import express from "express";
-import {createShortUrl} from "../controllers/shortUrl.controller.js";
+// shortUrl.route.js
+import { Router } from "express";
+import { createShortUrlWithoutUser } from "../services/shortUrl.service.js";
+const router = Router();
 
-// Create a router
-const router = express.Router();
+router.post("/", createShortUrlWithoutUser);
 
-// Define the routes
-router.post("/",createShortUrl);
-  
-// export the router
 export default router;
 
 // Note:
