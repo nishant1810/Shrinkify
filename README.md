@@ -10,30 +10,7 @@ This is the backend for a URL Shortener application built with Node.js, Express,
 - Track number of clicks per short URL
 - User dashboard for managing URLs
 
-## Project Structure
-
-```
-BACKEND/
-  ├── .env
-  ├── app.js
-  ├── package.json
-  └── src/
-      ├── config/
-      ├── controller/
-      ├── dao/
-      ├── middleware/
-      ├── models/
-      ├── routes/
-      ├── services/
-      └── utils/
-```
-
 ## Getting Started
-
-### Prerequisites
-
-- Node.js (v16+)
-- MongoDB
 
 ### Installation
 
@@ -87,6 +64,4 @@ BACKEND/
 
 - `GET /:id` — Redirect to the original URL
 
-## License
 
-MIT
